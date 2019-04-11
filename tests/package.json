@@ -1,24 +1,5 @@
 {
-  "name": "typei18n-vue",
-  "version": "1.0.0",
-  "description": "yet another i18n solution by codegen and vue provider",
-  "scripts": {
-    "dev": "webpack --config ./tests/webpack.dev.config.js",
-    "build": "webpack --config ./webpack.config.js",
-    "prettier": "prettier --config ./prettier.json --write ./src/*.ts ./src/**/*.ts ./src/**/*.tsx ./tests/*.ts ./tests/**/*.ts ./tests/**/*.tsx"
-  },
-  "author": "",
-  "license": "ISC",
-  "files": [
-    "src",
-    "lib",
-    "LICENSE",
-    "tsconfig.json",
-    "package.json",
-    "README.md"
-  ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "name": "test",
   "dependencies": {
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",

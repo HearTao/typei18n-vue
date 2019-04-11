@@ -1,4 +1,4 @@
-const config = module.exports = {
+const config = {
   presets: [
     ['@babel/preset-env'],
     '@vue/babel-preset-jsx',
