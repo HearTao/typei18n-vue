@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "typei18n-plugin",
+        "options": {
+          "moduleName": "i18n",
+          "locales": "./tests/locales",
+          "filePath": "./tests/locales/index.d.ts"
+        }
+      }
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    // "./tests/**/*",
+    // "./tests/locales/index.d.ts"
+  ]
+}
