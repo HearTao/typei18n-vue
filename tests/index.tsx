@@ -1,7 +1,7 @@
 import * as tsx from 'vue-tsx-support'
 import 'vue-tsx-support/enable-check'
-import { Component, Provide, Prop } from 'vue-property-decorator' 
-import I18nProvider from '../src';
+import { Component } from 'vue-property-decorator' 
+import { I18nProvider } from '../src';
 import Playground from './playground';
 import i18n from 'i18n'
 
